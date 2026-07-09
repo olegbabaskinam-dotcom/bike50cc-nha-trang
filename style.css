@@ -38,10 +38,10 @@ h1 span{color:var(--terra);font-style:italic}
 .sub{font-size:17.5px;color:var(--muted);margin-bottom:28px;max-width:520px}
 .cta-row{display:flex;gap:12px;flex-wrap:wrap}
 .btn{padding:14px 24px;border-radius:13px;font-weight:700;font-size:15px;display:inline-flex;align-items:center;gap:9px;transition:.15s;border:1px solid transparent}
-.btn-wa{background:var(--terra);color:#fff}
-.btn-wa:hover{background:var(--terra-d);transform:translateY(-2px)}
-.btn-tg{background:#fff;color:var(--ink);border-color:var(--line)}
-.btn-tg:hover{border-color:var(--muted);transform:translateY(-2px)}
+.btn-wa{background:#fff;color:var(--terra);border-color:var(--terra)}
+.btn-wa:hover{background:var(--terra);color:#fff;transform:translateY(-2px)}
+.btn-tg{background:#fff;color:var(--olive-d);border-color:var(--olive-d)}
+.btn-tg:hover{background:var(--olive-d);color:#fff;transform:translateY(-2px)}
 .btn-ghost{background:transparent;color:var(--muted);border-color:var(--line)}
 
 /* trust */
@@ -154,7 +154,12 @@ footer{background:var(--sand);border-top:1px solid var(--line);color:var(--muted
 }
 
 .contacts{display:flex;gap:8px}
-.cbtn{width:40px;height:40px;border-radius:11px;background:var(--terra);color:#fff;display:flex;align-items:center;justify-content:center;transition:.15s}
-.cbtn:hover{background:var(--terra-d)}
+.cbtn{width:38px;height:38px;border-radius:50%;background:#fff;color:var(--terra);border:1.6px solid var(--terra);display:flex;align-items:center;justify-content:center;transition:.15s}
+.cbtn:hover{background:var(--terra);color:#fff}
 .cbtn svg{width:19px;height:19px;fill:currentColor}
 .btn svg{width:17px;height:17px;fill:currentColor;margin-right:3px}
+
+.buyback .btn-tg{background:rgba(255,255,255,.1);color:#fff;border-color:rgba(255,255,255,.4)}
+.buyback .btn-tg:hover{background:#fff;color:#3C4628}
+.band .btn-wa:hover{background:#fff;color:var(--terra-d);transform:translateY(-2px)}
+.band .btn-tg:hover{background:#fff;color:var(--terra-d);transform:translateY(-2px)}
