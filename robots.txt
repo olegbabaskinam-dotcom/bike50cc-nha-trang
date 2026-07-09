@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://bike50cc-nha-trang.asia/sitemap.xml
