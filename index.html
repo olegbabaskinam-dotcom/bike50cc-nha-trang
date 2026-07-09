@@ -42,15 +42,18 @@ header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.88);backdro
 .nav-cta{background:var(--terra);color:#fff;padding:10px 17px;border-radius:11px;font-weight:700;font-size:14px}
 .nav-cta:hover{background:var(--terra-d)}
 
-.hero{position:relative;overflow:hidden;border-bottom:1px solid var(--line)}
-.hero::before{content:"";position:absolute;inset:0;background:
-  radial-gradient(680px 360px at 84% -8%, rgba(200,80,42,.14), transparent 62%),
-  radial-gradient(560px 380px at 2% 118%, rgba(124,139,87,.13), transparent 58%)}
-.hero-in{position:relative;z-index:2;padding:70px 0 80px;max-width:690px}
-.eyebrow{display:inline-flex;align-items:center;gap:9px;background:var(--surface);border:1px solid var(--line);padding:7px 14px;border-radius:30px;font-size:12.5px;font-weight:700;letter-spacing:.4px;color:var(--muted);text-transform:uppercase;margin-bottom:22px}
+.hero{position:relative;overflow:hidden;border-bottom:1px solid var(--line);background:url('img/site/hero.jpg') center 42%/cover no-repeat}
+.hero::before{content:"";position:absolute;inset:0;background:linear-gradient(96deg, rgba(28,18,8,.82) 0%, rgba(28,18,8,.60) 45%, rgba(40,26,12,.30) 100%)}
+.hero-in{position:relative;z-index:2;padding:92px 0 100px;max-width:700px}
+.eyebrow{display:inline-flex;align-items:center;gap:9px;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.28);padding:7px 14px;border-radius:30px;font-size:12.5px;font-weight:700;letter-spacing:.4px;color:#F5EAD9;text-transform:uppercase;margin-bottom:22px}
 .eyebrow .dot{width:7px;height:7px;border-radius:50%;background:var(--olive)}
 h1{font-size:56px;line-height:1.02;font-weight:600;letter-spacing:-1px;margin-bottom:18px}
 h1 span{color:var(--terra);font-style:italic}
+.hero h1{color:#FFF7EE}
+.hero h1 span{color:#FFB07A}
+.hero .sub{color:#EFE3D4}
+.hero .btn-ghost{color:#F0E4D5;border-color:rgba(255,255,255,.4)}
+.hero .btn-tg{background:#fff;color:var(--ink);border-color:#fff}
 .sub{font-size:18px;color:var(--muted);margin-bottom:30px;max-width:560px}
 .cta-row{display:flex;gap:12px;flex-wrap:wrap}
 .btn{padding:15px 26px;border-radius:13px;font-weight:700;font-size:15px;display:inline-flex;align-items:center;gap:9px;transition:.15s;border:1px solid transparent}
