@@ -17,6 +17,7 @@ header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.9);backdrop
 .logo{font-family:'Fraunces';font-weight:700;font-size:18px;letter-spacing:-.3px;display:flex;align-items:center;gap:9px;white-space:nowrap}
 .logo b{color:var(--terra)}
 .logo .mk{width:19px;height:19px;border-radius:7px;background:linear-gradient(135deg,var(--terra),var(--terra-d));display:inline-block;transform:rotate(-8deg)}
+.logo-badge{width:40px;height:40px;object-fit:contain;flex:none}
 .menu{display:flex;gap:22px;margin-left:6px;font-weight:600;font-size:14px;color:var(--muted)}
 .menu a:hover,.menu a.on{color:var(--terra)}
 .langs{margin-left:auto;display:flex;gap:5px;font-size:12.5px;font-weight:700}
