@@ -201,3 +201,11 @@ footer{background:var(--sand);border-top:1px solid var(--line);color:var(--muted
 .buyback .btn-tg:hover{background:#fff;color:#3C4628}
 .band .btn-wa:hover{background:#fff;color:var(--terra-d);transform:translateY(-2px)}
 .band .btn-tg:hover{background:#fff;color:var(--terra-d);transform:translateY(-2px)}
+
+/* --- единый стиль контакт-кнопок + Instagram (WA/TG/IG одинаковые) --- */
+.btn-wa,.btn-tg,.btn-ig{background:#fff;color:var(--terra);border-color:var(--terra)}
+.btn-wa:hover,.btn-tg:hover,.btn-ig:hover{background:var(--terra);color:#fff;transform:translateY(-2px)}
+.band .btn-wa,.band .btn-tg,.band .btn-ig{background:#fff;color:var(--terra-d);border-color:#fff}
+.band .btn-wa:hover,.band .btn-tg:hover,.band .btn-ig:hover{background:rgba(255,255,255,.85);color:var(--terra-d);transform:translateY(-2px)}
+.buyback .btn-ig{background:rgba(255,255,255,.1);color:#fff;border-color:rgba(255,255,255,.4)}
+.buyback .btn-ig:hover{background:#fff;color:#3C4628}
