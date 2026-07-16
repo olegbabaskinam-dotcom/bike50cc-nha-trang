@@ -209,3 +209,11 @@ footer{background:var(--sand);border-top:1px solid var(--line);color:var(--muted
 .band .btn-wa:hover,.band .btn-tg:hover,.band .btn-ig:hover{background:rgba(255,255,255,.85);color:var(--terra-d);transform:translateY(-2px)}
 .buyback .btn-ig{background:rgba(255,255,255,.1);color:#fff;border-color:rgba(255,255,255,.4)}
 .buyback .btn-ig:hover{background:#fff;color:#3C4628}
+
+/* hero: три контакт-кнопки одинаковой ширины в один ряд */
+.hero-txt .cta-row{flex-wrap:nowrap;gap:10px}
+.hero-txt .cta-row .btn{flex:1 1 0;min-width:0;justify-content:center;padding-left:10px;padding-right:10px}
+@media(max-width:520px){
+  .hero-txt .cta-row{flex-wrap:wrap}
+  .hero-txt .cta-row .btn{flex:1 1 100%}
+}
