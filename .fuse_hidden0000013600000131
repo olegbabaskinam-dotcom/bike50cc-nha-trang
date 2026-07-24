@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Палитры для байкового сайта</title>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600;700&family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Manrope',system-ui,sans-serif;background:#EEF1F0;color:#12211D;padding:26px 18px 50px}
+.head{max-width:1180px;margin:0 auto 22px}
+.head h1{font-family:'Space Grotesk';font-size:26px;letter-spacing:-.5px}
+.head p{color:#5B6770;font-size:15px;margin-top:5px}
+.board{max-width:1180px;margin:0 auto;display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.tile{background:#fff;border:1px solid #DFE6E3;border-radius:18px;padding:14px;position:relative;box-shadow:0 6px 22px rgba(16,50,42,.06)}
+.tnum{position:absolute;top:-11px;left:-11px;width:34px;height:34px;border-radius:50%;background:#12211D;color:#fff;font-family:'Space Grotesk';font-weight:700;display:flex;align-items:center;justify-content:center;font-size:16px;z-index:3}
+.thead{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:10px;padding:2px 4px}
+.tname{font-family:'Space Grotesk';font-weight:700;font-size:15.5px}
+.tref{font-size:11.5px;color:#8A948F}
+
+/* MINI MOCK */
+.mock{border-radius:12px;overflow:hidden;border:1px solid rgba(0,0,0,.06);background:var(--bg)}
+.m-head{display:flex;align-items:center;gap:6px;padding:9px 11px;background:var(--surf);border-bottom:1px solid rgba(0,0,0,.06)}
+.m-logo{font-family:'Space Grotesk';font-weight:700;font-size:11px;color:var(--txt);letter-spacing:.4px}
+.m-logo b{color:var(--acc)}
+.m-nav{flex:1;display:flex;gap:8px;margin-left:6px}
+.m-nav i{width:20px;height:5px;border-radius:3px;background:var(--mut);opacity:.5}
+.m-btn{background:var(--acc);color:var(--btnT,#fff);font-size:8.5px;font-weight:800;padding:5px 9px;border-radius:6px}
+.m-hero{padding:16px 13px;background:var(--heroBg,var(--bg));position:relative}
+.m-h1{font-family:'Space Grotesk';font-weight:700;font-size:16px;line-height:1.1;color:var(--heroT,var(--txt))}
+.m-h1 span{color:var(--acc)}
+.m-sub{font-size:9px;color:var(--heroM,var(--mut));margin:5px 0 9px;max-width:150px}
+.m-cta{display:inline-block;background:var(--acc);color:var(--btnT,#fff);font-size:8.5px;font-weight:800;padding:6px 11px;border-radius:6px}
+.m-cta.alt{background:transparent;color:var(--heroT,var(--txt));border:1px solid var(--mut);margin-left:5px}
+.m-cards{display:grid;grid-template-columns:1fr 1fr;gap:8px;padding:11px 13px 13px;background:var(--bg)}
+.m-card{background:var(--surf);border:1px solid rgba(0,0,0,.06);border-radius:8px;overflow:hidden}
+.m-ph{height:44px;display:flex;align-items:flex-end;padding:5px}
+.m-tag{background:var(--acc2,var(--acc));color:var(--tagT,#fff);font-size:6.5px;font-weight:800;padding:2px 5px;border-radius:5px}
+.m-cb{padding:6px 7px}
+.m-nm{font-size:8px;font-weight:700;color:var(--txt)}
+.m-pr{font-family:'Space Grotesk';font-size:9.5px;font-weight:700;color:var(--txt);margin-top:1px}
+
+.swatches{display:flex;gap:6px;margin-top:11px;padding:0 4px}
+.swatches i{width:26px;height:26px;border-radius:7px;border:1px solid rgba(0,0,0,.08)}
+.pick{margin-top:11px;text-align:center;font-size:12px;font-weight:800;color:#0B7E6C;background:#EAF5F2;padding:8px;border-radius:9px;cursor:pointer;border:1px solid #CFE7E0}
+.pick:hover{background:#0FA48C;color:#fff}
+@media(max-width:900px){.board{grid-template-columns:1fr 1fr}}
+@media(max-width:600px){.board{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="head">
+  <h1>Палитры для сайта байков — выбери номер</h1>
+  <p>7 направлений (по мотивам реальных байковых сайтов). Каждое — мини-превью главной. Скажи номер, который нравится — в нём соберу весь сайт.</p>
+</div>
+<div class="board">
+
+  <!-- 1 Тропический Нячанг -->
+  <div class="tile" style="--bg:#FFFFFF;--surf:#F4F8F7;--txt:#12211D;--mut:#8A948F;--acc:#FF6B35;--acc2:#12B886;--heroBg:#FFF7F3">
+    <div class="tnum">1</div>
+    <div class="thead"><span class="tname">Тропический Нячанг</span><span class="tref">пляжный, свежий</span></div>
+    <div class="mock">
+      <div class="m-head"><span class="m-logo">MOTO<b>NT</b></span><span class="m-nav"><i></i><i></i><i></i></span><span class="m-btn">WhatsApp</span></div>
+      <div class="m-hero"><div class="m-h1">Байки 50cc <span>без прав</span></div><div class="m-sub">Проверено · гарантия · выкуп</div><span class="m-cta">Смотреть</span><span class="m-cta alt">Telegram</span></div>
+      <div class="m-cards">
+        <div class="m-card"><div class="m-ph" style="background:linear-gradient(135deg,#FF8A5B,#E24E1B)"><span class="m-tag">в наличии</span></div><div class="m-cb"><div class="m-nm">Vespa 50cc</div><div class="m-pr">13.5M ₫</div></div></div>
+        <div class="m-card"><div class="m-ph" style="background:linear-gradient(135deg,#2FC2A8,#0E8C77)"><span class="m-tag">в наличии</span></div><div class="m-cb"><div class="m-nm">Scoopy 50cc</div><div class="m-pr">11.9M ₫</div></div></div>
+      </div>
+    </div>
+    <div class="swatches"><i style="background:#FFFFFF"></i><i style="background:#FF6B35"></i><i style="background:#12B886"></i><i style="background:#12211D"></i></div>
+  </div>
+
+  <!-- 2 Suzuki -->
+  <div class="tile" style="--bg:#FFFFFF;--surf:#F2F5FA;--txt:#0E1A2B;--mut:#7C89A0;--acc:#1B5FD9;--acc2:#FFC61A;--tagT:#12211D;--heroBg:#F4F7FD">
+    <div class="tnum">2</div>
+    <div class="thead"><span class="tname">Suzuki-стиль</span><span class="tref">синий + жёлтый</span></div>
+    <div class="mock">
+      <div class="m-head"><span class="m-logo">MOTO<b>NT</b></span><span class="m-nav"><i></i><i></i><i></i></span><span class="m-btn">WhatsApp</span></div>
+      <div class="m-hero"><div class="m-h1">Байки 50cc <span>без прав</span></div><div class="m-sub">Проверено · гарантия · выкуп</div><span class="m-cta">Смотреть</span><span class="m-cta alt">Telegram</span></div>
+      <div class="m-cards">
+        <div class="m-card"><div class="m-ph" style="background:linear-gradient(135deg,#3D74E8,#1B45A0)"><span class="m-tag">в наличии</span></div><div class="m-cb"><div class="m-nm">Vespa 50cc</div><div class="m-pr">13.5M ₫</div></div></div>
+        <div class="m-card"><div class="m-ph" style="background:linear-gradient(135deg,#FFD24D,#E0A80E)"><span class="m-tag">в наличии</span></div><div class="m-cb"><div class="m-nm">Scoopy 50cc</div><div class="m-pr">11.9M ₫</div></div></div>
+      </div>
+    </div>
+    <div class="swatches"><i style="background:#FFFFFF"></i><i style="background:#1B5FD9"></i><i style="background:#FFC61A"></i><i style="background:#0E1A2B"></i></div>
+  </div>
+
+  <!-- 3 Ducati -->
+  <div class="tile" style="--bg:#14161A;--surf:#1D2126;--txt:#F0F2F4;--mut:#8B95A0;--acc:#E01B2E;--btnT:#fff;--heroBg:#101216;--heroT:#F0F2F4;--heroM:#98A2AD">
+    <div class="tnum">3</div>
+    <div class="thead"><span class="tname">Ducati-стиль</span><span class="tref">тёмный + гоночный красный</span></div>
+    <div class="mock">
+      <div class="m-head"><span class="m-logo">MOTO<b>NT</b></span><span class="m-nav"><i></i><i></i><i></i></span><span class="m-btn">WhatsApp</span></div>
+      <div class="m-hero"><div class="m-h1">Байки 50cc <span>без прав</span></div><div class="m-sub">Проверено · гарантия · выкуп</div><span class="m-cta">Смотреть</span><span class="m-cta alt">Telegram</span></div>
+      <div class="m-cards">
+        <div class="m-card"><div class="m-ph" style="background:linear-gradient(135deg,#E23644,#8E1420)"><span class="m-tag">в наличии</span></div><div class="m-cb"><div class="m-nm">Vespa 50cc</div><div class="m-pr">13.5M ₫</div></div></div>
+        <div class="m-card"><div class="m-ph" style="background:linear-gradient(135deg,#3A424C,#191D22)"><span class="m-tag">в наличии</span></div><div class="m-cb"><div class="m-nm">Scoopy 50cc</div><div class="m-pr">11.9M ₫</div></div></div>
+      </div>
+    </div>
+    <div class="swatches"><i style="background:#14161A"></i><i style="background:#E01B2E"></i><i style="background:#1D2126"></i><i style="background:#F0F2F4"></i></div>
+  </div>
+
+  <!-- 4 Ч/Б минимал -->
+  <div class="tile" style="--bg:#FFFFFF;--surf:#F5F5F5;--txt:#111111;--mut:#9A9A9A;--acc:#111111;--acc2:#FF3B30;--btnT:#fff;--heroBg:#FFFFFF">
+    <div class="tnum">4</div>
+    <div class="thead"><span class="tname">Ч/Б минимал</span><span class="tref">чёрный/белый + красный</span></div>
+    <div class="mock">
+      <div class="m-head"><span class="m-logo">MOTO<b style="color:#FF3B30">NT</b></span><span class="m-nav"><i></i><i></i><i></i></span><span class="m-btn">WhatsApp</span></div>
+      <div class="m-hero"><div class="m-h1">Байки 50cc <span style="color:#FF3B30">без прав</span></div><div class="m-sub">Проверено · гарантия · выкуп</div><span class="m-cta">Смотреть</span><span class="m-cta alt">Telegram</span></div>
+      <div class="m-cards">
+        <div class="m-card"><div class="m-ph" style="background:linear-gradient(135deg,#2B2B2B,#0A0A0A)"><span class="m-tag" style="background:#FF3B30">в наличии</span></div><div class="m-cb"><div class="m-nm">Vespa 50cc</div><div class="m-pr">13.5M ₫</div></div></div>
+        <div class="m-card"><div class="m-ph" style="background:linear-gradient(135deg,#DDDDDD,#B0B0B0)"><span class="m-tag" style="background:#FF3B30">в наличии</span></div><div class="m-cb"><div class="m-nm">Scoopy 50cc</div><div class="m-pr">11.9M ₫</div></div></div>
+      </div>
+    </div>
+    <div class="swatches"><i style="background:#FFFFFF"></i><i style="background:#111111"></i><i style="background:#FF3B30"></i><i style="background:#F5F5F5"></i></div>
+  </div>
+
+  <!-- 5 Чистый мятный -->
+  <div class="tile" style="--bg:#FFFFFF;--surf:#F1F8F5;--txt:#123A2F;--mut:#7FA096;--acc:#0FA48C;--acc2:#0FA48C;--heroBg:#F1F8F5">
+    <div class="tnum">5</div>
+    <div class="thead"><span class="tname">Чистый мятный</span><span class="tref">как цветочный, мягкий</span></div>
+    <div class="mock">
+      <div class="m-head"><span class="m-logo">MOTO<b>NT</b></span><span class="m-nav"><i></i><i></i><i></i></span><span class="m-btn">WhatsApp</span></div>
+      <div class="m-hero"><div class="m-h1">Байки 50cc <span>без прав</span></div><div class="m-sub">Проверено · гарантия · выкуп</div><span class="m-cta">Смотреть</span><span class="m-cta alt">Telegram</span></div>
+      <div class="m-cards">
+        <div class="m-card"><div class="m-ph" style="background:linear-gradient(135deg,#2FC2A8,#0E8C77)"><span class="m-tag">в наличии</span></div><div class="m-cb"><div class="m-nm">Vespa 50cc</div><div class="m-pr">13.5M ₫</div></div></div>
+        <div class="m-card"><div class="m-ph" style="background:linear-gradient(135deg,#7ED0BE,#3FA593)"><span class="m-tag">в наличии</span></div><div class="m-cb"><div class="m-nm">Scoopy 50cc</div><div class="m-pr">11.9M ₫</div></div></div>
+      </div>
+    </div>
+    <div class="swatches"><i style="background:#FFFFFF"></i><i style="background:#0FA48C"></i><i style="background:#F1F8F5"></i><i style="background:#123A2F"></i></div>
+  </div>
+
+  <!-- 6 Тёплый песочный -->
+  <div class="tile" style="--bg:#FBF6EE;--surf:#F3EADB;--txt:#3A2E1F;--mut:#A8977E;--acc:#C8502A;--acc2:#7A8B5A;--heroBg:#FBF6EE">
+    <div class="tnum">6</div>
+    <div class="thead"><span class="tname">Тёплый песочный</span><span class="tref">винтаж, Vespa-вайб</span></div>
+    <div class="mock">
+      <div class="m-head"><span class="m-logo">MOTO<b>NT</b></span><span class="m-nav"><i></i><i></i><i></i></span><span class="m-btn">WhatsApp</span></div>
+      <div class="m-hero"><div class="m-h1">Байки 50cc <span>без прав</span></div><div class="m-sub">Проверено · гарантия · выкуп</div><span class="m-cta">Смотреть</span><span class="m-cta alt">Telegram</span></div>
+      <div class="m-cards">
+        <div class="m-card"><div class="m-ph" style="background:linear-gradient(135deg,#D9743F,#A84A1E)"><span class="m-tag">в наличии</span></div><div class="m-cb"><div class="m-nm">Vespa 50cc</div><div class="m-pr">13.5M ₫</div></div></div>
+        <div class="m-card"><div class="m-ph" style="background:linear-gradient(135deg,#95A46B,#68774A)"><span class="m-tag">в наличии</span></div><div class="m-cb"><div class="m-nm">Scoopy 50cc</div><div class="m-pr">11.9M ₫</div></div></div>
+      </div>
+    </div>
+    <div class="swatches"><i style="background:#FBF6EE"></i><i style="background:#C8502A"></i><i style="background:#7A8B5A"></i><i style="background:#3A2E1F"></i></div>
+  </div>
+
+  <!-- 7 Электрик -->
+  <div class="tile" style="--bg:#FFFFFF;--surf:#F3F4FB;--txt:#151832;--mut:#8388A8;--acc:#4B49F0;--acc2:#00C2A8;--heroBg:#F5F5FE">
+    <div class="tnum">7</div>
+    <div class="thead"><span class="tname">Электрик</span><span class="tref">свежий индиго, техно</span></div>
+    <div class="mock">
+      <div class="m-head"><span class="m-logo">MOTO<b>NT</b></span><span class="m-nav"><i></i><i></i><i></i></span><span class="m-btn">WhatsApp</span></div>
+      <div class="m-hero"><div class="m-h1">Байки 50cc <span>без прав</span></div><div class="m-sub">Проверено · гарантия · выкуп</div><span class="m-cta">Смотреть</span><span class="m-cta alt">Telegram</span></div>
+      <div class="m-cards">
+        <div class="m-card"><div class="m-ph" style="background:linear-gradient(135deg,#6C6AF5,#3937C4)"><span class="m-tag">в наличии</span></div><div class="m-cb"><div class="m-nm">Vespa 50cc</div><div class="m-pr">13.5M ₫</div></div></div>
+        <div class="m-card"><div class="m-ph" style="background:linear-gradient(135deg,#2FD4BC,#0E9E8A)"><span class="m-tag">в наличии</span></div><div class="m-cb"><div class="m-nm">Scoopy 50cc</div><div class="m-pr">11.9M ₫</div></div></div>
+      </div>
+    </div>
+    <div class="swatches"><i style="background:#FFFFFF"></i><i style="background:#4B49F0"></i><i style="background:#00C2A8"></i><i style="background:#151832"></i></div>
+  </div>
+
+</div>
+</body>
+</html>
