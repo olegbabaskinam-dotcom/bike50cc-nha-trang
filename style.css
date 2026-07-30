@@ -103,10 +103,10 @@ h2{font-size:36px;font-weight:600;letter-spacing:-.5px;margin:8px 0 8px}
 .card-cta{margin-top:15px;display:block;text-align:center;background:var(--sand);color:var(--ink);font-weight:700;padding:11px;border-radius:11px;font-size:14px;border:1px solid var(--line)}
 .card-cta:hover{background:var(--terra);color:#fff;border-color:var(--terra)}
 
-/* buyback */
-.buyback{background:linear-gradient(150deg,#4E5A34,#3C4628);color:#F6F1E3;border-radius:24px;padding:44px;position:relative;overflow:hidden}
-.buyback::before{content:"";position:absolute;right:-70px;top:-70px;width:280px;height:280px;border-radius:50%;background:radial-gradient(circle,rgba(200,80,42,.28),transparent 70%)}
-.buyback h2{color:#fff}.buyback .lead{color:#DCD9C4}.buyback .eyebrow2{color:#D8B48C}
+/* ownership */
+.ownership{background:linear-gradient(150deg,#4E5A34,#3C4628);color:#F6F1E3;border-radius:24px;padding:44px;position:relative;overflow:hidden}
+.ownership::before{content:"";position:absolute;right:-70px;top:-70px;width:280px;height:280px;border-radius:50%;background:radial-gradient(circle,rgba(200,80,42,.28),transparent 70%)}
+.ownership h2{color:#fff}.ownership .lead{color:#DCD9C4}.ownership .eyebrow2{color:#D8B48C}
 .bb50{display:grid;grid-template-columns:200px 1fr;gap:26px;margin-top:26px;position:relative;align-items:center}
 .bb50-num{font-family:'Fraunces';font-weight:700;font-size:76px;line-height:.9;color:#BBD48C}
 .bb50-num span{display:block;font-family:'Manrope';font-weight:700;font-size:14px;color:#DCD9C4;margin-top:8px}
@@ -171,7 +171,7 @@ footer{background:var(--sand);border-top:1px solid var(--line);color:var(--muted
   section{padding:44px 0}
   h1{font-size:36px}
   h2{font-size:28px}
-  .buyback,.band{padding:30px 22px}
+  .ownership,.band{padding:30px 22px}
   .bb50-num{font-size:60px}
   .prose h2{font-size:23px}
   .wrap{padding:0 16px}
@@ -184,7 +184,7 @@ footer{background:var(--sand);border-top:1px solid var(--line);color:var(--muted
   .sub{font-size:15.5px}
   .btn{padding:13px 20px;font-size:14.5px}
   .cta-row{gap:9px}
-  .buyback,.band{padding:26px 18px;border-radius:20px}
+  .ownership,.band{padding:26px 18px;border-radius:20px}
   .bb50-num{font-size:52px}
   .logo{font-size:16px}
   .plate{min-height:200px}
@@ -197,8 +197,8 @@ footer{background:var(--sand);border-top:1px solid var(--line);color:var(--muted
 .cbtn svg{width:17px;height:17px;fill:currentColor}
 .btn svg{width:17px;height:17px;fill:currentColor;margin-right:3px}
 
-.buyback .btn-tg{background:rgba(255,255,255,.1);color:#fff;border-color:rgba(255,255,255,.4)}
-.buyback .btn-tg:hover{background:#fff;color:#3C4628}
+.ownership .btn-tg{background:rgba(255,255,255,.1);color:#fff;border-color:rgba(255,255,255,.4)}
+.ownership .btn-tg:hover{background:#fff;color:#3C4628}
 .band .btn-wa:hover{background:#fff;color:var(--terra-d);transform:translateY(-2px)}
 .band .btn-tg:hover{background:#fff;color:var(--terra-d);transform:translateY(-2px)}
 
@@ -207,8 +207,8 @@ footer{background:var(--sand);border-top:1px solid var(--line);color:var(--muted
 .btn-wa:hover,.btn-tg:hover,.btn-ig:hover{background:var(--terra);color:#fff;transform:translateY(-2px)}
 .band .btn-wa,.band .btn-tg,.band .btn-ig{background:#fff;color:var(--terra-d);border-color:#fff}
 .band .btn-wa:hover,.band .btn-tg:hover,.band .btn-ig:hover{background:rgba(255,255,255,.85);color:var(--terra-d);transform:translateY(-2px)}
-.buyback .btn-ig{background:rgba(255,255,255,.1);color:#fff;border-color:rgba(255,255,255,.4)}
-.buyback .btn-ig:hover{background:#fff;color:#3C4628}
+.ownership .btn-ig{background:rgba(255,255,255,.1);color:#fff;border-color:rgba(255,255,255,.4)}
+.ownership .btn-ig:hover{background:#fff;color:#3C4628}
 
 /* hero: три контакт-кнопки одинаковой ширины в один ряд */
 .hero-txt .cta-row{flex-wrap:nowrap;gap:10px}
