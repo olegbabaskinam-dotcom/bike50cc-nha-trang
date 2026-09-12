@@ -264,3 +264,13 @@ footer{background:var(--sand);border-top:1px solid var(--line);color:var(--muted
 .pm{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:13px 8px;text-align:center;min-width:76px;font-weight:600;font-size:12.5px;color:var(--muted);box-shadow:var(--shadow-sm)}
 .pm span{display:block;font-family:'Fraunces';font-size:22px;line-height:1;color:var(--terra);margin-bottom:6px}
 @media(max-width:720px){.infoblock{padding:24px}.infogrid{grid-template-columns:1fr;gap:26px}}
+
+
+/* --- Blue Card widget --- */
+.bluecard{background:#EAF3E1;border:1px solid #CDE0BC;border-radius:20px;padding:26px;max-width:860px;margin-top:6px}
+.bc-head{font-family:'Fraunces';font-size:20px;font-weight:600;margin-bottom:16px;display:flex;align-items:center;gap:12px;color:var(--ink);flex-wrap:wrap}
+.bc-tag{background:#4C6B2F;color:#fff;font-family:'Manrope';font-size:11.5px;font-weight:800;letter-spacing:.5px;padding:5px 12px;border-radius:20px;text-transform:uppercase}
+.bcgal-main{position:relative;border-radius:14px;overflow:hidden;background:#fff;border:1px solid #CDE0BC;max-width:560px}
+.bcgal-main img{width:100%;display:block}
+.bcprev{left:12px}.bcnext{right:12px}
+.bc-cap{margin-top:14px;color:#4C6B2F;font-size:14px;line-height:1.6;max-width:560px}
