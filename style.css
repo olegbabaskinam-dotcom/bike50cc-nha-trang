@@ -245,3 +245,10 @@ footer{background:var(--sand);border-top:1px solid var(--line);color:var(--muted
 .pdesc{color:var(--ink);font-size:15.5px;line-height:1.75;margin:30px 0 0}
 .pdesc p{margin-bottom:13px}
 @media(max-width:820px){.pwrap{grid-template-columns:1fr;gap:22px}}
+
+
+/* --- card photo slider --- */
+.ph .ph-link{position:absolute;inset:0;display:block;z-index:1}
+.cnav{position:absolute;top:50%;transform:translateY(-50%);width:34px;height:34px;border-radius:50%;background:rgba(255,255,255,.92);border:1px solid var(--line);display:flex;align-items:center;justify-content:center;cursor:pointer;font-size:20px;line-height:1;color:var(--ink);z-index:5;user-select:none;box-shadow:var(--shadow-sm)}
+.cnav:hover{background:var(--terra);color:#fff;border-color:var(--terra)}
+.cprev{left:8px}.cnext{right:8px}

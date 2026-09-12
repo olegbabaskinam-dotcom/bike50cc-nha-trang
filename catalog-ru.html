@@ -62,7 +62,7 @@
    <h2>Байки в наличии</h2>
    <p class="lead">Готовые байки 50cc с документами. Сейчас в наличии — выбирай и пиши нам.</p>
    <div class="grid">
-     <a href="catalog-exciter-blue-ru.html" class="card" style="display:block"><div class="ph"><img src="img/bikes/exciter-blue-v2/1.jpg" alt="Спортивный байк 50cc синий в Нячанге"><span class="badge stock">в наличии</span></div><div class="card-b"><h3>Спортивный байк 50cc — синий</h3><div class="spec">50cc · xe số · Blue Card · ≈48 600 км</div><div class="price">13 000 000 ₫<small>≈ $510 · выдача в Нячанге</small></div><span class="card-cta">Смотреть байк →</span></div></a>
+     <div class="card"><div class="ph cslide" data-imgs="img/bikes/exciter-blue-v2/1.jpg|img/bikes/exciter-blue-v2/2.jpg|img/bikes/exciter-blue-v2/3.jpg|img/bikes/exciter-blue-v2/4.jpg|img/bikes/exciter-blue-v2/5.jpg|img/bikes/exciter-blue-v2/6.jpg|img/bikes/exciter-blue-v2/7.jpg|img/bikes/exciter-blue-v2/8.jpg|img/bikes/exciter-blue-v2/9.jpg|img/bikes/exciter-blue-v2/10.jpg|img/bikes/exciter-blue-v2/11.jpg|img/bikes/exciter-blue-v2/12.jpg|img/bikes/exciter-blue-v2/13.jpg|img/bikes/exciter-blue-v2/14.jpg|img/bikes/exciter-blue-v2/15.jpg|img/bikes/exciter-blue-v2/16.jpg|img/bikes/exciter-blue-v2/17.jpg|img/bikes/exciter-blue-v2/18.jpg|img/bikes/exciter-blue-v2/19.jpg|img/bikes/exciter-blue-v2/20.jpg"><a href="catalog-exciter-blue-ru.html" class="ph-link"><img src="img/bikes/exciter-blue-v2/1.jpg" alt="Спортивный байк 50cc синий в Нячанге"></a><span class="badge stock">в наличии</span><div class="cnav cprev">&#8249;</div><div class="cnav cnext">&#8250;</div></div><div class="card-b"><h3>Спортивный байк 50cc — синий</h3><div class="spec">50cc · xe số · Blue Card · ≈48 600 км</div><div class="price">13 000 000 ₫<small>≈ $510 · выдача в Нячанге</small></div><a href="catalog-exciter-blue-ru.html" class="card-cta">Смотреть байк →</a></div></div>
    </div>
  </div>
 </section>
@@ -90,5 +90,6 @@
    <div class="copy">© 2026 Байки 50сс в Нячанге. Все права защищены.</div>
  </div>
 </footer>
+<script>document.querySelectorAll(".cslide").forEach(function(el){var im=el.dataset.imgs.split("|"),img=el.querySelector("img"),i=0;function go(d){return function(e){e.preventDefault();e.stopPropagation();i=(i+d+im.length)%im.length;img.src=im[i];};}var p=el.querySelector(".cprev"),n=el.querySelector(".cnext");if(p)p.onclick=go(-1);if(n)n.onclick=go(1);});</script>
 </body>
 </html>
