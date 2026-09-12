@@ -222,7 +222,9 @@ footer{background:var(--sand);border-top:1px solid var(--line);color:var(--muted
 /* --- product / gallery --- */
 .back{display:inline-block;margin-bottom:16px;color:var(--muted);font-weight:600;font-size:14px}
 .back:hover{color:var(--terra)}
-.pwrap{display:grid;grid-template-columns:1.1fr .9fr;gap:38px;align-items:start;margin-top:6px}
+.pwrap{display:grid;grid-template-columns:1.1fr .9fr;gap:38px;align-items:stretch;margin-top:6px}
+.pgal{display:flex;flex-direction:column}
+.pgal .viewbar{flex:1;margin:16px 0 0}
 .pgal-main{position:relative;border-radius:18px;overflow:hidden;background:var(--sand);border:1px solid var(--line);aspect-ratio:4/3}
 .pgal-main img{width:100%;height:100%;object-fit:cover;display:block}
 .pgal-nav{position:absolute;top:50%;transform:translateY(-50%);width:44px;height:44px;border-radius:50%;background:rgba(255,255,255,.92);border:1px solid var(--line);display:flex;align-items:center;justify-content:center;cursor:pointer;font-size:24px;line-height:1;color:var(--ink);box-shadow:var(--shadow-sm);user-select:none;z-index:2}
