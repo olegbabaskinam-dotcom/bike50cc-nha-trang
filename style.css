@@ -284,3 +284,18 @@ footer{background:var(--sand);border-top:1px solid var(--line);color:var(--muted
 .viewbar p{font-size:15px;color:var(--ink);line-height:1.5;margin:0}
 .viewbar b{color:var(--terra)}
 @media(max-width:600px){.viewbar{padding:16px}.viewbar p{font-size:14px}}
+
+
+/* --- Единая цена 12 000 000 ₫ --- */
+.oneprice{background:var(--sand);border:1px solid var(--line);border-left:4px solid var(--terra);border-radius:14px;padding:18px 22px;margin:0 0 26px;max-width:530px}
+.oneprice .op-main{font-family:'Fraunces',serif;font-size:30px;font-weight:700;color:var(--ink);line-height:1.15}
+.oneprice .op-sub{color:var(--muted);font-size:13.5px;margin-top:5px}
+.oneprice .op-note2{color:var(--ink);font-size:15px;margin-top:9px}
+.opbar{background:var(--sand);border:1px solid var(--line);border-radius:14px;padding:14px 20px;margin:0 0 22px;font-size:16px;color:var(--ink)}
+.opbar b{color:var(--terra);font-weight:700}
+.opgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:22px}
+.opcard{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:20px}
+.opcard h3{font-family:'Fraunces',serif;font-size:19px;margin:0 0 8px;color:var(--ink)}
+.opcard p{margin:0;font-size:15px;color:var(--muted);line-height:1.55}
+.op-note{color:var(--terra);font-size:14px;font-weight:600;margin:2px 0 6px}
+@media(max-width:760px){.opgrid{grid-template-columns:1fr}.oneprice .op-main{font-size:25px}.oneprice{padding:16px 18px}}
