@@ -311,3 +311,18 @@ footer{background:var(--sand);border-top:1px solid var(--line);color:var(--muted
 .docs-hidden{background:#F4F1EC;border:1px solid #DCD4C7;border-radius:16px;padding:20px 18px;margin-top:18px;text-align:center}
 .docs-hidden .dh-ic{display:block;font-size:26px;margin-bottom:8px;opacity:.7}
 .docs-hidden p{margin:0;color:#6B6152;font-size:14px;line-height:1.6}
+
+/* --- SOLD SECTION --- */
+.soldwrap{margin-top:48px;border-top:1px solid var(--line);padding-top:30px}
+.soldhead{font-family:'Fraunces';font-size:22px;font-weight:600;color:var(--ink);margin:0 0 5px}
+.soldsub{color:var(--muted);font-size:14px;line-height:1.55;margin:0;max-width:640px}
+.grid-sold{grid-template-columns:repeat(4,1fr);gap:16px;margin-top:22px}
+.grid-sold .card{opacity:.88}
+.grid-sold .ph{height:150px}
+.grid-sold .card-b{padding:14px}
+.grid-sold .card-b h3{font-size:16px}
+.grid-sold .spec{font-size:11.5px;margin-bottom:10px}
+.grid-sold .price{font-size:18px}
+.grid-sold .card-cta{margin-top:11px;padding:9px;font-size:13px}
+@media(max-width:860px){.grid-sold{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:520px){.grid-sold{grid-template-columns:repeat(2,1fr);gap:12px}}
