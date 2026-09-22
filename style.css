@@ -299,3 +299,15 @@ footer{background:var(--sand);border-top:1px solid var(--line);color:var(--muted
 .opcard p{margin:0;font-size:15px;color:var(--muted);line-height:1.55}
 .op-note{color:var(--terra);font-size:14px;font-weight:600;margin:2px 0 6px}
 @media(max-width:760px){.opgrid{grid-template-columns:1fr}.oneprice .op-main{font-size:25px}.oneprice{padding:16px 18px}}
+
+/* --- SOLD --- */
+.badge.sold{background:#B03A2E;color:#fff}
+.ph.sold img{filter:grayscale(.35) brightness(.78) blur(1.2px)}
+.ph.sold::after{content:"";position:absolute;inset:0;background:rgba(28,24,20,.16);z-index:2;pointer-events:none}
+.sold-stamp{position:absolute;z-index:4;top:50%;left:50%;transform:translate(-50%,-50%) rotate(-8deg);background:#B03A2E;color:#fff;font-family:'Manrope',sans-serif;font-weight:800;font-size:15px;letter-spacing:2px;text-transform:uppercase;padding:9px 22px;border-radius:6px;box-shadow:0 6px 18px rgba(0,0,0,.28);white-space:nowrap;pointer-events:none}
+.pgal-main .sold-stamp{top:16px;left:16px;transform:rotate(-6deg)}
+.soldbar{display:inline-flex;align-items:center;gap:8px;background:#F7E8E5;color:#8E2F24;font-weight:700;font-size:13px;padding:6px 13px;border-radius:20px}
+.soldbar::before{content:"";width:8px;height:8px;border-radius:50%;background:#B03A2E}
+.docs-hidden{background:#F4F1EC;border:1px solid #DCD4C7;border-radius:16px;padding:20px 18px;margin-top:18px;text-align:center}
+.docs-hidden .dh-ic{display:block;font-size:26px;margin-bottom:8px;opacity:.7}
+.docs-hidden p{margin:0;color:#6B6152;font-size:14px;line-height:1.6}
