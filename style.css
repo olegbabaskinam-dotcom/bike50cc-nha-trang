@@ -326,3 +326,5 @@ footer{background:var(--sand);border-top:1px solid var(--line);color:var(--muted
 .grid-sold .card-cta{margin-top:11px;padding:9px;font-size:13px}
 @media(max-width:860px){.grid-sold{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:520px){.grid-sold{grid-template-columns:repeat(2,1fr);gap:12px}}
+
+.plates-auth{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;margin-top:24px}.plates-auth .plate{min-height:260px}@media(max-width:720px){.plates-auth{grid-template-columns:1fr}}

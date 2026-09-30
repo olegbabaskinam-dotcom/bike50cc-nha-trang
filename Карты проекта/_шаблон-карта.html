@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<style>
+  @page {
+    size: A4;
+    margin: 18mm 16mm 16mm 16mm;
+    @bottom-center {
+      content: "bike50cc-nha-trang.asia · Карта проекта №1";
+      font-family: "DejaVu Sans", sans-serif;
+      font-size: 7.5pt; color: #B3A79D; letter-spacing: .3px;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -weasy-hyphens: none; }
+  body {
+    font-family: "DejaVu Sans", sans-serif;
+    color: #211C18; background: #FBF8F5;
+    margin: 0; font-size: 10pt; line-height: 1.5;
+  }
+  .eyebrow {
+    font-size: 7.5pt; letter-spacing: 2.5px; text-transform: uppercase;
+    color: #C8502A; font-weight: 700;
+  }
+  /* ---------- HEADER ---------- */
+  .hero { border-top: 3px solid #C8502A; padding-top: 14px; margin-bottom: 22px; }
+  .hero .kicker {
+    font-size: 8pt; letter-spacing: 3px; text-transform: uppercase;
+    color: #8A7F76; font-weight: 700; margin-bottom: 8px;
+  }
+  .hero h1 {
+    font-size: 26pt; line-height: 1.08; margin: 0 0 4px 0;
+    font-weight: 700; color: #1B1712; letter-spacing: -0.5px;
+  }
+  .hero .sub { font-size: 10.5pt; color: #6E645B; margin-bottom: 14px; }
+  .hero .sub b { color: #C8502A; font-weight: 700; }
+  .narr {
+    font-size: 10.5pt; line-height: 1.6; color: #3D362F;
+    background: #FFFFFF; border: 1px solid #EEE6DE; border-left: 4px solid #C8502A;
+    padding: 13px 16px; border-radius: 4px;
+  }
+  /* ---------- KPI GRID ---------- */
+  .section-label {
+    display: flex; align-items: baseline; gap: 10px;
+    margin: 24px 0 12px 0;
+  }
+  .section-label .t { font-size: 12pt; font-weight: 700; color: #1B1712; letter-spacing: .2px; }
+  .section-label .line { flex: 1; border-bottom: 1px solid #EAE1D8; }
+  .grid { width: 100%; border-collapse: separate; border-spacing: 10px 10px; margin: 0 -10px; }
+  .grid td { width: 33.33%; vertical-align: top; padding: 0; }
+  .tile {
+    background: #FFFFFF; border: 1px solid #ECE3DB; border-radius: 7px;
+    padding: 14px 15px 15px 15px; height: 100%;
+  }
+  .tile .lbl {
+    font-size: 7.5pt; letter-spacing: 1.6px; text-transform: uppercase;
+    color: #9A8E84; font-weight: 700; margin-bottom: 9px;
+  }
+  .tile .num {
+    font-size: 30pt; font-weight: 700; line-height: 1; color: #1B1712;
+    letter-spacing: -1px;
+  }
+  .tile .num .u { font-size: 12pt; font-weight: 700; color: #9A8E84; letter-spacing: 0; }
+  .tile .meta { font-size: 8.5pt; color: #6E645B; margin-top: 7px; line-height: 1.35; }
+  .badge {
+    display: inline-block; margin-top: 10px; font-size: 7.5pt; font-weight: 700;
+    letter-spacing: .5px; text-transform: uppercase;
+    padding: 3px 9px; border-radius: 20px;
+    background: #F4EEE8; color: #A08A7A; border: 1px solid #EAE0D6;
+  }
+  .badge.warm { background: #FBEDE7; color: #C8502A; border-color: #F3D8CC; }
+  .badge.live { background: #EAF4EE; color: #2F8F5B; border-color: #CDE7D8; }
+  /* ---------- DIRECTION BLOCKS ---------- */
+  .dir { background: #FFFFFF; border: 1px solid #ECE3DB; border-radius: 7px;
+         padding: 17px 18px; margin-bottom: 13px; border-left: 4px solid #C8502A; }
+  .dir h3 { margin: 0 0 5px 0; font-size: 11.5pt; color: #1B1712; font-weight: 700; }
+  .dir h3 .tag { font-size: 7.5pt; letter-spacing: 1.5px; text-transform: uppercase;
+                 color: #C8502A; font-weight: 700; margin-right: 8px; }
+  .dir p { margin: 0; font-size: 9.5pt; color: #4A423B; line-height: 1.5; }
+  .dir.g1 { border-left-color: #C8502A; }
+  .dir.g2 { border-left-color: #2F8F5B; }
+  .dir.g3 { border-left-color: #C89B2A; }
+  .dir.g4 { border-left-color: #4A6FA5; }
+  /* ---------- FOOTER STRIP ---------- */
+  .foot {
+    margin-top: 20px; border-top: 2px solid #E7DDD3; padding-top: 12px;
+    display: flex; justify-content: space-between; align-items: flex-end;
+  }
+  .foot .l { font-size: 9pt; color: #4A423B; width: 62%; }
+  .foot .l b { color: #C8502A; }
+  .foot .r { font-size: 8pt; color: #A9998C; text-align: right; width: 38%; }
+  .avoid { page-break-inside: avoid; }
+</style>
+</head>
+<body>
+
+  <div class="hero avoid">
+    <div class="kicker">Карта проекта · Периодический слепок роста</div>
+    <h1>КАРТА ПРОЕКТА №1</h1>
+    <div class="sub">7 сентября 2026 · <b>bike50cc-nha-trang.asia</b> · базовая точка</div>
+    <div class="narr">
+      Проект превращается из набора страниц в измеримую растущую систему: сайт уже индексируется
+      тремя поисковиками, приходят первые живые обращения, подключены аналитика и защита.
+      Это первая опорная точка — дальше каждые 2–3 недели фиксируем рост по одним и тем же метрикам.
+    </div>
+  </div>
+
+  <div class="section-label avoid">
+    <span class="t">Ключевые метрики</span>
+    <span class="line"></span>
+  </div>
+
+  <table class="grid">
+    <tr>
+      <td><div class="tile">
+        <div class="lbl">Поиск · Google</div>
+        <div class="num">3<span class="u"> кликов</span></div>
+        <div class="meta">16 показов за 3 мес · топ-страна Вьетнам · запросы «продажа», «купить байк нячанг»</div>
+        <span class="badge warm">Базовая точка</span>
+      </div></td>
+      <td><div class="tile">
+        <div class="lbl">Поиск · Яндекс</div>
+        <div class="num">78<span class="u"> кликов</span></div>
+        <div class="meta">642 показа · CTR 12,2% · средняя позиция 6,7 за 3 мес</div>
+        <span class="badge warm">Базовая точка</span>
+      </div></td>
+      <td><div class="tile">
+        <div class="lbl">Поиск · Naver (KR)</div>
+        <div class="num">✓<span class="u"> подключён</span></div>
+        <div class="meta">Зарегистрирован сегодня, sitemap отправлен · корейский рынок открыт</div>
+        <span class="badge live">Старт сегодня</span>
+      </div></td>
+    </tr>
+    <tr>
+      <td><div class="tile">
+        <div class="lbl">Спрос · обращения</div>
+        <div class="num">5<span class="u"> заявок</span></div>
+        <div class="meta">Первые обращения в WhatsApp / Telegram / Instagram — без рекламы</div>
+        <span class="badge warm">Базовая точка</span>
+      </div></td>
+      <td><div class="tile">
+        <div class="lbl">Актив · контент</div>
+        <div class="num">107<span class="u"> страниц</span></div>
+        <div class="meta">3 языка (RU / EN / KR) · 56 статей в блоге · 106 URL в sitemap</div>
+        <span class="badge warm">Базовая точка</span>
+      </div></td>
+      <td><div class="tile">
+        <div class="lbl">Бизнес · продажи</div>
+        <div class="num">0<span class="u"> сделок</span></div>
+        <div class="meta">Продаж и закупа ещё не было · витрина готова · реклама не запускалась</div>
+        <span class="badge">Базовая точка</span>
+      </div></td>
+    </tr>
+  </table>
+
+  <div class="section-label avoid" style="page-break-before: always; margin-top: 4px;">
+    <span class="t">По направлениям</span>
+    <span class="line"></span>
+  </div>
+  <p style="font-size:9.5pt;color:#6E645B;margin:0 0 14px 0;">Одна короткая мысль по каждому направлению — что уже работает и от чего считаем рост.</p>
+
+  <div class="dir g1 avoid">
+    <h3><span class="tag">Поиск</span>Сайт уже находят в трёх поисковиках</h3>
+    <p>Google показывает сайт по коммерческим запросам (топ-страна — Вьетнам), в Яндексе средняя позиция 6,7 и CTR 12%. Сегодня подключён Naver — открыт корейский рынок.</p>
+  </div>
+  <div class="dir g2 avoid">
+    <h3><span class="tag">Спрос</span>Первые живые обращения — на органике</h3>
+    <p>5 человек написали и спросили про байк ещё до старта рекламы. Это подтверждает, что трафик уже конвертируется в интерес.</p>
+  </div>
+  <div class="dir g3 avoid">
+    <h3><span class="tag">Бизнес</span>Ноль зафиксирован — точка отсчёта</h3>
+    <p>Продаж пока нет, и это честная база: со следующего слепка считаем каждую сделку, оборот и средний чек от этого нуля.</p>
+  </div>
+  <div class="dir g4 avoid">
+    <h3><span class="tag">Система</span>Инфраструктура роста собрана</h3>
+    <p>GA4, Search Console в Google / Яндексе / Naver, sitemap и security-харденинг (заголовки, защита от кликджекинга). Проект стал измеримым и защищённым.</p>
+  </div>
+
+  <div style="background:#FFF6F1;border:1px solid #F3D8CC;border-radius:7px;padding:14px 18px;margin-top:16px;">
+    <span class="eyebrow">Ритм</span>
+    <p style="margin:5px 0 0 0;font-size:9.5pt;color:#4A423B;line-height:1.5;">
+      Слепок №1 — это фотография старта. Следующие снимаются каждые 2–3 недели по этим же метрикам,
+      и каждая плитка получит дельту (+%/×) к предыдущей точке. Так виден рост, а не просто цифры.
+    </p>
+  </div>
+
+  <div class="foot avoid">
+    <div class="l">Периодический слепок <b>№1</b> · Базовая точка · Предыдущие точки: —</div>
+    <div class="r">Сформировано 7 сентября 2026</div>
+  </div>
+
+</body>
+</html>
