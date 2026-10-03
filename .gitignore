@@ -27,3 +27,4 @@ config.secret*
 *.swp
 .DS_Store
 Thumbs.db
+_tools/
