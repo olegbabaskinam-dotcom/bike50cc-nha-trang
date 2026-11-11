@@ -28,3 +28,18 @@ config.secret*
 .DS_Store
 Thumbs.db
 _tools/
+
+# --- 11.11.2026 аудит: внутреннее — не на публичный сайт ---
+.fuse_hidden*
+__pycache__/
+*.pyc
+*.md
+*.gs
+Claude outputs/
+Карты проекта/
+Папка покупателя/
+Посты в соцсети/
+palette-board.html
+* 2.html
+* 2.*
+cavet-*
